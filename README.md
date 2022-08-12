@@ -1,6 +1,5 @@
 # My Latex resume
 
- * Is a [nicely typeset 2-page PDF](https://rawgithub.com/cies/resume/master/cies-breijs-resume.pdf) (click the link to download mine)
  * Compiles with or without installing software (read more below).
  * Might well be a starting point for your very own Latex resume.
 
@@ -72,28 +71,6 @@ you can safely ignore.
 
 Follow the same steps as for XeLaTeX, just replace the `./xelatex`
 command with `./pdflatex`.
-
-
-
-## TODO
-
-  * See if LuaTex can give access to both `fontspec`, `microtype` and unicode (so it can replace Xelatex)
-  * Make the vertical spacing configurable in one setting.
-
-
-## TADA
-
-  * Now uses [rawgithub.com](http://rawgithub.com) for in-browser viewing.
-  * [ShareLatex](http://sharelatex.com) is awesome! Point it out to users.
-  * When using `pdflatex` the `microtype` package kicks in
-  * Made switching to the [Linux Libertine](http://www.linuxlibertine.org) font easier
-  * Fixed all outstanding spacing issues (thanks to the `\sloppy` command)
-  * Works out of the box with ScribTex
-  * Separate file for command definitions (so we can collaborate on that file using forks and pull-requests)
-  * Allow ligatures (not very noticable with the Pagella font, one could try Libertine or Hoefler)
-  * Use old style numbers (had to make the apostrophes look nice on double-digit years)
-  * Cleanup the tex file: some repetitive stuff can move into functions
-  * Clever page breaking
 
 
 ## Terms of sharing
